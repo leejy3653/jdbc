@@ -30,7 +30,7 @@ public class InsertTest {
 
 			// 4. SQL문 실행
 			String sql = "insert into department values(null, '" + name + "')"; // 비효율적
-			int count = stmt.executeUpdate(sql); //중요
+			int count = stmt.executeUpdate(sql); // 중요
 
 			result = (count == 1);
 
